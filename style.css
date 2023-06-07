@@ -1,0 +1,148 @@
+* {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.container h1 {
+    font-size: 60px;
+    text-shadow: 2px 2px 2px grey;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0f766d50;
+    box-shadow: 2px 2px 5px;
+}
+
+#new-book {
+    display: flex;
+    margin-bottom: 30px;
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px;
+    background-color: #0369a1;
+}
+
+#new-book:hover {
+    background-color: #0f766e;
+    color: white;
+    box-shadow: inset 2px 2px 2px black;
+}
+
+#new-book-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    width: 30%;
+}
+
+label {
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+input {
+    font-size: 20px;
+    margin-top: -5px;
+    padding: 5px;
+    margin-bottom: 5px; 
+    border-radius: 5px; 
+    border: none;
+    outline: none;
+}
+
+input:hover {
+    background-color: #036aa162;
+}
+
+input:focus {
+    background-color: #036aa11f
+}
+
+.add-btn {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 25%;
+    justify-self: center;
+    background-color: #0369a1;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.add-btn:hover {
+    background-color: #0f766e;
+    color: white;
+    box-shadow: inset 2px 2px 2px black;
+    margin-bottom: 15px;
+}
+
+.checkbox {
+    margin-top: 5px;
+    height: 20px;
+}
+
+#library {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding-top: 10px;
+
+}
+
+.book-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 60%;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, #0369a1, #0f766e);
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.read-btn {
+    width: 50%;
+    justify-self: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.read-btn:hover {
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+}
+
+.remove-btn {
+    width: 70%;
+    padding: 5px;
+    justify-self: center;
+    font-size: 15px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.remove-btn:hover {
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+}
